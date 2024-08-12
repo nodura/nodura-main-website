@@ -1,0 +1,12 @@
+# Rust build artifacts
+/target
+**/Cargo.lock
+
+# Trunk build output
+frontend/dist
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
