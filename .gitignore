@@ -10,3 +10,6 @@ frontend/dist
 
 # Environment variables
 .env
+
+# Other Files
+workspace_log.md
