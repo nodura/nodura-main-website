@@ -1,6 +1,10 @@
-[package]
-name = "nodura-main-website"
-version = "0.1.0"
+[workspace]
+members = ["back-end", "front-end"]
+resolver = "2"
+
+[workspace.package]
 edition = "2021"
 
-[dependencies]
+[workspace.dependencies]
+yew = { version = "0.21.0", features = ["wasm-bindgen"] }
+actix-web = "4.9.0"
