@@ -1,0 +1,1 @@
+# Read the yew and actix docs to properly setup frontend and backend
