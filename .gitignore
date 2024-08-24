@@ -3,7 +3,7 @@
 **/Cargo.lock
 
 # Trunk build output
-frontend/dist
+front-end/dist
 
 # VSCode settings
 .vscode/
