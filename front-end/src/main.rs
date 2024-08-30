@@ -1,11 +1,19 @@
-use yew::prelude::*;
+mod components;
 
-#[function_component(App)]
-fn app() -> Html {
+use components::Hello;
+use yew::{classes, function_component, html, Html};
+
+#[function_component]
+fn App() -> Html {
     html! {
-        <div>
-            <h1>{"Hello, world!"}</h1>
+    <>
+        <div class={classes!(["bg-red-500", "text-3xl"])}>
+            <Hello />
         </div>
+        <div>
+            <p class={classes!("bg-blue-500")}>{ "Test" }</p>
+        </div>
+        </>
     }
 }
 
