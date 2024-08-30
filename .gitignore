@@ -5,6 +5,9 @@
 # Trunk build output
 front-end/dist
 
+# Node modules
+node_modules
+
 # VSCode settings
 .vscode/
 
