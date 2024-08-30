@@ -1,19 +1,12 @@
-mod components;
-
-use components::Hello;
 use yew::{classes, function_component, html, Html};
 
 #[function_component]
 fn App() -> Html {
     html! {
-    <>
-        <div class={classes!(["bg-red-500", "text-3xl"])}>
-            <Hello />
-        </div>
-        <div>
-            <p class={classes!("bg-blue-500")}>{ "Test" }</p>
-        </div>
-        </>
+    <div class="p-10 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-4">
+            <h1 class="text-2xl font-bold">{"Hello, Yew with Tailwind CSS!"}</h1>
+            <p>{"This is a Yew component styled with Tailwind CSS."}</p>
+    </div>
     }
 }
 
