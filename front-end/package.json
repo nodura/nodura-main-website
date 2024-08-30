@@ -1,6 +1,5 @@
 {
     "scripts": {
-        "clean:css": "rm -rf ./dist && mkdir ./dist",
         "build:css": "npm run clean:css && tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
     },
     "devDependencies": {
