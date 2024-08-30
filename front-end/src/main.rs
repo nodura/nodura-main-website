@@ -1,4 +1,4 @@
-use yew::{classes, function_component, html, Html};
+use yew::{function_component, html, Html};
 
 #[function_component]
 fn App() -> Html {
