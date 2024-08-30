@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build:css": "npm run clean:css && tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+        "build:css": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
