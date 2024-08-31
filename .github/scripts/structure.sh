@@ -14,7 +14,7 @@ log_directory() {
     local ITEMS=()
     for ITEM in "$DIR_PATH"/* "$DIR_PATH"/.*; do
         local ITEM_NAME=$(basename "$ITEM")
-        if [[ "$ITEM_NAME" != "." && "$ITEM_NAME" != ".." && "$ITEM_NAME" != "target" && "$ITEM_NAME" != ".git" && "$ITEM_NAME" != ".env" ]]; then
+        if [[ "$ITEM_NAME" != "." && "$ITEM_NAME" != ".." && "$ITEM_NAME" != "target" && "$ITEM_NAME" != ".git" && "$ITEM_NAME" != ".env" && "$ITEM_NAME" != "node_modules" ]]; then
             ITEMS+=("$ITEM")
         fi
     done
