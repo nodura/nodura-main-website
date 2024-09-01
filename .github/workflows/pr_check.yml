@@ -28,5 +28,7 @@ jobs:
                   version: "latest"
             - name: Build
               run: trunk build
+              working-directory: ./front-end
             - name: Run tests
               run: cargo test --verbose
+              working-directory: ./front-end
