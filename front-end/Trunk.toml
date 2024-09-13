@@ -8,7 +8,7 @@ command = "npx"
 command_arguments = [
     "tailwindcss",
     "-i",
-    "./src/tailwind.css",
+    "./styles/tailwind.css",
     "-o",
     "./styles/main.css",
 ]
