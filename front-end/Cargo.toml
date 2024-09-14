@@ -5,3 +5,4 @@ edition.workspace = true
 
 [dependencies]
 yew.workspace = true
+yew-router.workspace = true
