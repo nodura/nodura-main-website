@@ -13,5 +13,5 @@ fn app() -> Html {
 }
 
 fn main() {
-    yew::Renderer::<App>::new().render();
+    yew::ServerRenderer::<App>::new().render();
 }
