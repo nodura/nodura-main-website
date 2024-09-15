@@ -1,0 +1,20 @@
+[book]
+authors = ["sanderfeitsma13@gmail.com <SanderLoman>"]
+language = "en"
+multilingual = false
+src = "book"
+title = "Contower Book"
+description = "A book on all things Contower"
+
+[output.html]
+# theme = "book/theme"
+git-repository-url = "https://github.com/nodura/nodura-main-website"
+default-theme = "Coal"
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[build]
+build-dir = "target/book"
