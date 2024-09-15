@@ -3,7 +3,7 @@
 **/Cargo.lock
 
 # Trunk build output
-front-end/dist
+frontend/dist
 
 # Node modules
 node_modules
