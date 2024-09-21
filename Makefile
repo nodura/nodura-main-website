@@ -8,11 +8,11 @@ build-backend:
 
 build-frontend:
 	@echo "Building Yew frontend..."
-	cd frontend && trunk build --release
+	trunk build --release
 
-serve: check-css-file
+serve: 
 	@echo "Serving Yew frontend..."
-	cd frontend && trunk serve --open
+	trunk serve --open
 
 check-css-file:
 	@if [ ! -f ./frontend/styles/main.css ]; then \

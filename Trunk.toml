@@ -1,5 +1,5 @@
 [build]
-target = "index.html"
+target = "./frontend/index.html"
 dist = "dist"
 
 [[hooks]]
@@ -8,7 +8,7 @@ command = "npx"
 command_arguments = [
     "tailwindcss",
     "-i",
-    "./styles/tailwind.css",
+    "./frontend/styles/tailwind.css",
     "-o",
-    "./styles/main.css",
+    "./frontend/styles/main.css",
 ]
